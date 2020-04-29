@@ -1,0 +1,25 @@
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color: white;
+}
+#background {
+    width: 100%; 
+    height: 100%; 
+    
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+#main{
+	background-color: rgb(250, 250, 250);
+	
+}

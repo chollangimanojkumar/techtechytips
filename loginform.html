@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>LOGIN</title>
+<link rel="stylesheet" type="text/css" href="loginform.css">
+</head>
+<body>
+	<form class="box"  action="login.php"  method="POST" id="form">
+  <h1><b>login</b></h1>
+  <input type="text" id="uname" name="iusername" placeholder="Username" required>
+  <input type="password" id="passwd" name="ipassword" placeholder="Password" required>
+  <input type="checkbox" onclick="showpass()">ShowPassword
+  <input type="submit" name="submit" value="Login"  id="submit" onclick="return validate()">
+  <p>new user? register &nbsp<a id="here" href="registration.html"  onmouseover="document.getElementById('here').innerHTML='register'" onmouseleave="document.getElementById('here').innerHTML='here'">here</a></p>
+</form>
+
+
+</body>
+<script src="loginform.js">
+</script>
+
+</html>
+
+

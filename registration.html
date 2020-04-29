@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>REGISTRATION</title>
+	<link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body>
+
+<table align="right">
+
+<form action="connect.php" method="post"> 
+	<fieldset style="background:rgba(102,153,255,0.25);">
+
+		<legend ><big><big>Registration</big></big></legend>
+		<div id="div1" style="float: left; width: 50%">
+	User name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="text" name="username" title="enter username of length 8-15" required> 
+	<br><br>
+	Password: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="password" name="password" maxlength="10" minlength="5" required>
+	&nbsp&nbsp
+	Confirm Password:
+	<input type="password" maxlength="10" minlength="5" required>
+	<br><br>
+	First name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type=text name="firstname" required>
+	&nbsp &nbsp
+	Last name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="text" name="lastname" required>
+	&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp<br><br>				
+	Father name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="text" name="fathername" required>
+	<br><br>
+	Email id:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="text" name="emailid" required>
+	<br><br>
+	Phone number:&nbsp&nbsp&nbsp
+	     <select name="pcountry" id="country"> 
+            <option value="+91" id="india">+91</option> 
+            <option value="+94" id="srilanka">+94</option> 
+            <option value="+1" id="usa">+1</option>
+            <option value="+20" id="britan">+20</option>
+        </select> 
+
+        <input type="text" name="phonenumber" required>
+	<br><br>
+	date-of-birth:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="date" name="dob"><br><br>
+	
+	Gender: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="radio" name="Gender" value="male">Male
+
+	<input type="radio" name="Gender" value="female">Female
+	<br><br>
+	
+	
+	Address:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<textarea rows="5" cols="50" name="address" id="Address" maxlength="500" required></textarea>
+	<br>
+	<br>
+	country:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<select id="country" name="country">
+		<option id="india" value="India">India</option>
+		<option id="usa" value="USA">U.S.A</option>
+		<option id="srilanka" value="Srilanka">Sri Lanka</option>
+		<option id="britan" value="UK">U.K</option>
+	</select>
+	<br>
+	<br>
+	Upload Address Proof:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="file" name="upload" id="addproof" required>
+	<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<button class="button">Submit</button> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button type="reset" value="Reset" class="button button2">Reset</button></div>
+        <div id="div2">
+        	<!--<img src="radiation.jpg" height="320" width="240">-->
+        	
+        </div>
+        </fieldset>
+</form>
+<script src="registration.js">
+	</script>
+
+</body>
+</html>

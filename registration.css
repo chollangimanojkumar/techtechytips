@@ -1,0 +1,33 @@
+body{
+	background-image: url("registration.jpg");
+	background-size: 100% 100%;
+	color:white;
+}
+.button {
+  background-color: rgba(6, 255, 234, 0.596); /* Green */
+  color: white;
+  padding: 15px 45px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border:2px solid black;
+}
+.button2{
+	background-color:rgb(255, 255, 0,0.596) ;
+}
+.button:hover {
+	background-color: rgba(0, 255, 0, 0.596);
+	color: black;
+}
+.button2:hover{
+	background-color: rgba(255, 50, 0, 0.596);
+	color: black;
+}
+
+a{
+	text-decoration:none;
+	color: white
+}
+
